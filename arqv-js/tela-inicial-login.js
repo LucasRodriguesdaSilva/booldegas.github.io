@@ -83,7 +83,7 @@ const contribuir = () => {
         url = location.href
         newUrl = url.replace('index.html','telas/cad-prod.html')
         location.href = newUrl;
-    }else{
+    }else if(v != 1 || v == null){
         url = location.href
         newUrl = url.replace('index.html','telas/login.html')
         location.href = newUrl;
