@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/favicon.ico" type="image/x-icon">
+    <title>Bool-dega'S - Login</title>
+    <link rel="stylesheet" href="../css/style-login.css">
+
+</head>
+    <img src="../imagens/logo-m.PNG" alt="logo" class="logo">   
+<body>  
+    <div class="container">
+        
+        <h1>Entrar no Bool-dega'S</h1>
+        <form id="register-form" action="">
+            <div class="full-box">
+                <label  for="email">E-mail</label>
+                <i class="fas fa-envelope"></i><input type="email" name="login" id="email" placeholder="Digite seu e-mail" data-min-length="2" data-email-validate>
+            </div>
+           
+            <div class="full-box spacing">
+                <label for="password">Senha</label>
+                <i class="fas fa-key"></i><input type="password" name="senha" id="senha" placeholder="Digite a sua senha" data-password-validate data-required>
+            </div>
+            <div class="full-box">
+                <input type="submit" id="btn-login" value="Login" onclick="logar(); return false" >
+            </div>
+            <div class="full-box">
+                <label for="check" id="check-label">Ainda não tem conta? <a href="login-cad.html" target="_blank"> Cadastre-se</a></label>
+            </div>
+            
+        </form>
+    </div>    
+
+    <p class="error-validation template"></p>
+
+<script src="../arqv-js/scripts-login.js"></script>
+
+<script src="https://kit.fontawesome.com/65e74de912.js" crossorigin="anonymous"></script>
+</body>
+</html>

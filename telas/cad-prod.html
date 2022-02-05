@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/favicon.ico" type="image/x-icon">
+    <title>Bool-degaS - Cadastro de Produtos</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style-cad-prod.css">
+</head>
+<body>
+    <nav class="navbar navbar-light">
+        <a href="../index.html"><img src="../imagens/logo-m.PNG" alt="" class="img-prod"></a>
+        <a href="#" class="navbar-brand">
+            Cadastro de Produtos
+        </a>
+    </nav>
+    <div class="container">
+        <div id="App" class="row pt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Adicionar Produtos</h4>
+                    </div>
+                    <form id="product-form" class="card-body">
+                        <div class="form-group">
+                            <label class="lb-form" for="nome-merc">Mercearia/Empresa</label>
+                            <input type="text" id="nome-merc" placeholder="Nome da Mercearia" class="form-control" name="nome-merc">
+                        </div>
+                        <div class="form-group">
+                            <label class="lb-form" for="nome-produto">Nome</label>
+                            <input type="text" id="nome-produto" placeholder="Nome do Produto" class="form-control" name="nome-produto">
+                        </div>
+                        <div class="form-group">
+                            <label class="lb-form" for="preco">Preço</label>
+                            <input type="number" id="preco" name="preco" placeholder="Preço do Produto" step="0.01" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="lb-form">Imagem do Produto</label>
+                            <input class="lb-form" type="file" id="img-prod" placeholder="Imagem do Produto" class="form-control">
+                        </div>
+                        <input type="submit" value="Cadastrar" class="btn btn-block">    
+                        <div class="lb-box">
+                            <label for="check">Ao cadastrar você estará concordadndo com os <a href="#">Termos de uso</a></label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+    <script src="../arqv-js/scripts-cad-prod.js"></script>
+</body>
+</html>

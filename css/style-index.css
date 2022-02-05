@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+ }
+/* formatação primeiro header*/
+ .container-1{
+     background-color: #008B8B;
+     margin: 0;
+ }
+
+ .container-1 form .btn-s{
+     color: black;
+ }
+
+ .container-1 form .btn-s:hover{
+     color: orangered;
+ }
+ .container-1 form .btn-ss{
+     background-color: orangered;
+ }
+ .container-1 form .btn-ss:hover{
+     background-color: black;
+     border-bottom: 3px solid orangered;
+     transition: linear .3s;
+     width: 55px;
+ }
+ .container ul .log-cad{
+     color: black;
+ }
+ .container ul .log-cad:hover{
+     color: orangered;
+     border-bottom: 3px solid orangered;
+     transition: ease-in-out .3s;
+ }
+
+ .container ul .dropdown-menu{
+     background-color: orangered;
+     border-bottom: 3px solid black;
+     opacity: .9;
+     cursor: pointer;
+ }
+ .container ul .loj-c:hover{
+     color: orangered;
+ }
+/* formatação segundo header*/
+ .container-2{
+     height: 60px;
+    margin: 0;
+ }
+
+.container-2 .cab-2{
+    height: 50px;
+    display: flex;
+    position: relative;
+    bottom: 13px;
+}
+.container-2 .cab-2 .btn-cont{
+    display: flex;
+    position: relative;
+    right: 15px;
+    background-color: orangered;
+    top: 3px;
+}
+.container-2 .cab-2 .btn-cont:hover{
+    background-color: black;
+    border-bottom: 3px solid cadetblue;
+    transition: .3s;
+    width: 127px;
+    height: 52px;
+    font-size: 1.3rem;
+    color: rgb(3, 182, 57);
+
+}
+.container-2 .cab-2 .nav-2{
+    display: flex;
+    position: relative;
+    left: 250px;
+}
+.container-2 .cab-2 .nav-2 .nav-link{
+    color: orangered;
+    margin-top: 8px;
+}
+.container-2 .cab-2 .nav-2 .nav-link:hover{
+    color: rgb(3, 182, 57);
+    border-bottom: 3px solid cadetblue;
+    transition: linear .3s;
+    
+}
+.inner .logo-bt .text-hide{
+    display: flex;
+    position: relative;
+    border-radius: 200%;
+    bottom: 11.8px;
+    right: 5px;
+}
+/* Configuração img carroussel 1*/
+.container .carousel-item .box-img{
+    display: flex;
+    height: 400px;
+    min-height: 450px;
+}
+/*Config carrousel*/
+
+.corrousel-serie{
+    display: flex;
+    margin-top: 30px;
+  
+}
+.new_prod{
+    cursor: pointer;
+}
+.corrousel-serie .item-prod{
+    background-color: #fff;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.corrousel-serie .item-prod .titulo-p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: bolder;
+    
+}
+.corrousel-serie .item-prod .preco-t{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: orangered;
+}
+.box-serie{
+    display: flex;
+    height: 260px;
+    width: 400px;
+    
+}
+/*Rodape config*/
+footer{
+    margin-top: 20px;
+    width: 100%;
+    min-height: 250px;
+    background: #fff;
+    display: flex;
+
+}
+.boxes .logo{
+    display: flex;
+    position: relative;
+    width: 180px;   
+}
+footer .boxes{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+}
+footer .boxes:nth-child(5){
+    width: 500px;
+}
+
+.boxes h2{
+    color: #008B8B;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    
+}
+
+.boxes ul li {
+    margin: 10px 0px;
+    list-style: none;
+}
+.boxes ul li a{
+    color: #008B8B;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.boxes ul li a:hover{
+    color: orangered;
+    font-size: 18px;
+}
+
+/*Formatação da nav pag*/
+.nav-pag{
+    display: flex;
+    margin-bottom: 10px;
+}
+.nav-pag ol .item-nav{
+    display: flex;
+    position: relative;
+    margin-left: 15px;
+}
+.nav-pag ol .item-nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-pag ol .item-nav a:hover{
+    color: orangered;
+    font-weight: bolder;
+}
+/*Ultima parte do footer*/
+.foot{
+    width: 100%;
+    min-height: 125px;
+    background: black;
+    display: flex;
+}
+
+.foot .redes{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+   
+}
+.foot .copy{
+    color: #fff;
+    display: flex;
+    font-size: 13px;
+  
+}
+.foot .redes a{
+    width: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.foot .redes .c-rede{
+    display: flex;
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+    bottom: 20px;
+    left: 160px;
+    margin-bottom: 25px;
+}
+.foot .redes i{
+    color: #fff;
+    display: flex;
+    margin-left: 20px;
+}
+.foot .redes i:hover{
+    color: orangered;
+}

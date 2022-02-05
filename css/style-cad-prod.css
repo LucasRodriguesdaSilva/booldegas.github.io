@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Config dos labels e inputs*/
+
+label, input{
+    display: block;
+    width: 100%;
+}
+
+a{
+    color: #008B8B;
+}
+
+/* Config da barra de navegação*/
+.navbar{
+    background-color: #008B8B;
+    justify-content: center;
+}
+.navbar .navbar-brand{
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 125px;
+}
+.navbar .navbar-brand:hover{
+    color: orangered;
+}
+
+.navbar .img-prod{
+    width: 150px;
+    display: flex;
+    position: relative;
+    right: 250px;
+    border-radius: 30px;
+    
+}
+/* Config do container.. div pai.*/
+.container{
+   display: flex;
+   position: relative;
+    width: 500px;
+  
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+.container #Ad-prod{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .card{
+    display: flex;
+    position: relative;
+    width: 400px;
+    background-color: #008B8B;
+}
+
+.card .card-header{
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-header h4{
+    color: #FFF;
+}
+.card .card-header h4:hover{
+    color: orangered;
+}
+/*Config da parte do form*/
+form .lb-form{
+    color: #FFF;
+    margin: 10px;
+}
+form .btn{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: orangered;
+    margin-top: 20px;
+}
+
+form .btn:hover{
+    background-color: black;
+    color: orangered;
+}
+
+.lb-box{
+    display: flex;
+    margin: 10px;
+    color: #FFF;
+}
+
+.lb-box a{
+    color: orangered;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lb-box a:hover{
+    color: black;
+}
