@@ -1,0 +1,10 @@
+@media screen and (max-width: 700px){
+    
+    .navbar .navbar-brand{
+        font-size: 19px;
+    }
+    .navbar .img-prod{
+        width: 100px;
+        right: 15px;
+    }
+}

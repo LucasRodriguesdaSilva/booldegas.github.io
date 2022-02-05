@@ -1,0 +1,20 @@
+@media screen and (max-width: 700px){
+    .container{
+        width: 400px;
+    }
+
+    .logo{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .container h1{
+        font-size: 1.3rem;
+        margin-bottom: 40px;
+    }
+    /*Config icons de login*/
+    .full-box .fas{
+        left: 10px;
+    }
+}

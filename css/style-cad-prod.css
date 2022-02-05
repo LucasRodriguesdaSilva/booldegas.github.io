@@ -17,7 +17,12 @@ a{
 /* Config da barra de navegação*/
 .navbar{
     background-color: #008B8B;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+   
 }
 .navbar .navbar-brand{
     color: #FFF;
@@ -34,9 +39,8 @@ a{
     width: 150px;
     display: flex;
     position: relative;
-    right: 250px;
-    border-radius: 30px;
-    
+    right: 50px;
+    border-radius: 30px; 
 }
 /* Config do container.. div pai.*/
 .container{
@@ -106,4 +110,15 @@ form .btn:hover{
 
 .lb-box a:hover{
     color: black;
+}
+/* Config da lista de prod cadstrado*/
+.list-m{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    left: 300px;
+}
+.list-n{
+    margin: 5px;
+
 }
