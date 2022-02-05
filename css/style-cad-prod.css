@@ -16,13 +16,13 @@ a{
 
 /* Config da barra de navegação*/
 .navbar{
+    width: 100%;
     background-color: #008B8B;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-   
 }
 .navbar .navbar-brand{
     color: #FFF;
