@@ -7,4 +7,21 @@
         width: 100px;
         right: 15px;
     }
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar .navbar-brand{
+        margin-left: 85px;
+        
+    }
+
+    /* Config do container.. div pai.*/
+    .container{
+        width: 100%;
+    }
+    .container .card{
+        width: 100%;
+    }
+    
 }

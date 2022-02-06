@@ -10,6 +10,10 @@ body{
 /* formatação primeiro header*/
  .container-1{
      background-color: #008B8B;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 150px;
  }
 
  .container-1 form .btn-s{
@@ -84,6 +88,7 @@ body{
     display: flex;
     position: relative;
     flex-direction: row;
+    border-style: hidden;
     margin-left: auto;
     margin-right: auto;
 }
@@ -223,7 +228,6 @@ footer .boxes:nth-child(5){
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 15px;
    
 }
 .foot .copy{
@@ -233,11 +237,11 @@ footer .boxes:nth-child(5){
   
 }
 .foot .redes a{
-    width: 50px;
     cursor: pointer;
     text-decoration: none;
     display: flex;
     justify-content: center;
+    
 }
 .foot .redes .c-rede{
     display: flex;
@@ -245,7 +249,7 @@ footer .boxes:nth-child(5){
     color: #fff;
     font-size: 14px;
     bottom: 20px;
-    left: 160px;
+    left: 130px;
     margin-bottom: 25px;
 }
 .foot .redes i{

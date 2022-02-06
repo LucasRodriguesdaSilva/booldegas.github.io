@@ -23,7 +23,6 @@ const verificar = () => {
             </a>
             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
                 <li><i class="dropdown-item" id="sair" onclick="logout(id)">Sair</i></li>
-                <li><a href="telas/cad-prod.html" class="dropdown-item">Cadastrar produto</i></li>
             </ul>
             `
     }else if(v == 0){ // logout

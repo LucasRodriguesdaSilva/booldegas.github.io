@@ -17,7 +17,16 @@
         margin-bottom: 40px;
     }
     /*Config icons de login*/
+    .full-box .inp-l{
+        display: flex;
+        margin-left: 40px;
+        
+    }
     .full-box .fas{
-        left: 10px;
+        width: 100%;
+        display: flex;
+        position: relative;
+        margin-right: 10px;
+       
     }
 }
