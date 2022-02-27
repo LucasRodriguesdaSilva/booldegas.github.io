@@ -1,3 +1,7 @@
+# Projeto referente à disciplina de Engenharia de Software 2021.2 - UFC
+
+##
+
 <img src="https://github.com/ciano123/Bool-degaS/blob/main/imagens/banner-booldegas.jpg"/>
 
 # Bool-degaS
