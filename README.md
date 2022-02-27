@@ -2,6 +2,17 @@
 
 ##
 
+### Equipe:
+- [Lucas Rodrigues](https://github.com/LucasRodriguesdaSilva)
+- [Evandro Filho Martins](https://github.com/martinsevandro)
+- [Cassiano Souza](https://github.com/ciano123)
+- [Eraldo Caetano](https://github.com/eraldocaetanoo)
+- [Darlyson17](https://github.com/Darlyson17)
+- [Francisco Renato Graciano Freire](https://github.com/RenatoGFreire)
+- [Fiama-Carla](https://github.com/Fiama-Carla)
+
+##
+
 <img src="https://github.com/ciano123/Bool-degaS/blob/main/imagens/banner-booldegas.jpg"/>
 
 # Bool-degaS
